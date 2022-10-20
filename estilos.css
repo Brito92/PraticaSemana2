@@ -1,0 +1,59 @@
+@font-face  {
+  font-family: 'portifolio';
+  src: url(img/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: 'design';
+  src: url(img/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face  {
+  font-family: 'linksClicaveis';
+  src: url(img/Caveat-VariableFont_wght.ttf);
+}
+header{
+  background-image: url(img/header.svg);
+  background-repeat: repeat-x;
+}
+.caixa{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+.header {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+.header li{
+  font-family: portifolio;
+  margin: 0 0 0 30px;
+  color: white;
+}
+.fonteRoboto {
+  font-family: design;
+}
+body {
+  background-color: bisque;
+}
+.links{
+  font-family: linksClicaveis;
+  font-size: 35px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.links li{
+  display: inline-block;
+  text-align: center;
+  width: 23%;
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+}
+footer{
+  text-align: center;
+  background: white;
+}
+.copyright{
+  color: black;
+}
